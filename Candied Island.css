@@ -1,0 +1,253 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f5e0d2;
+}
+/* Header styling */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.header_center{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.navigation li{
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.navigation a{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: red;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.searchImg{
+    padding: 10px;
+    width: 50px;
+    height: 25px;
+}
+.profileImg{
+    padding: 10px;
+    width: 80px;
+    height: 45px;
+}
+.cartImg{
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+}
+.dropbtn{
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    /* display: none; */
+    opacity: 0;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-top: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    transition: all 0.25s ease-in;
+    transform: translateY(-10px);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    /* display: block; */
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .search-container {
+    position: relative;
+}
+
+.search-input {
+    display: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.search-button {
+    cursor: pointer;
+}
+/* Това е СНИМКА ПОД ХЕДЪР */
+.cover{
+    height: 500px;
+}
+.cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+  /* ТВА Е ФУУТЪР */
+  .footer
+  {
+    display: block;
+    opacity: 0.9;
+    width: 100%;
+    height: 90px;   
+  }  
+  .sud 
+  {
+      display: flex;
+      padding: 0; 
+      align-items: stretch;
+      background-color: #f5e0d2;
+  }
+  .sud img{
+    width: 100px;
+    height: 100px;
+  }
+  .sud > div
+  {
+
+      color: black;
+      width: 100px;
+      margin: 10px;
+      padding-left: 5px;
+      text-align: left;
+      font-size: 12px;
+      text-decoration: none;
+      list-style-type: none;
+  }
+
+  #contacti .adres::before {
+      content: "\f041";
+      font-family: "FontAwesome";
+      color:#FBE8DA;
+      height: 26px;
+      width: 26px;
+      display: inline-block;
+      vertical-align: top;
+  }
+
+/* Това е ПРОДУКТИ */
+.producti
+{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 8%;
+    padding-right:8%;
+    
+}
+.producti > div 
+{
+    opacity: 0.9;
+
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+
+  /* Това е ЗА НАС */
+  .Whole
+{
+  width: 90%;
+  height: 700px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.man
+{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.pic
+{
+  width: 80%;
+  height: 60%;
+  align-items: center;
+  border: white solid 3px;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.syd
+{
+  width: 80%;
+  height: 30%;
+  text-align: center ;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.name
+{
+ text-align: center ;
+  align-content: center;
+  margin: 0 auto;
+}
+.snimka
+{
+  width:  100%;
+  height: 100%;
+}
