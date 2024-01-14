@@ -127,7 +127,27 @@ body{
     object-fit: cover;
 }
 
-
+/* Това са кръгчетата */
+.krugche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krugche-box a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+.box-img{
+    display: block;
+    margin: 0 auto;
+    padding:30px; 
+    border-radius: 50%; 
+    height: 230px; 
+    width: 230px;
+}
   /* ТВА Е ФУУТЪР */
   .footer
   {
@@ -174,31 +194,67 @@ body{
 .producti
 {
     display: flex;
-    align-items: stretch;
-    justify-content: center;
     flex-wrap: wrap;
-    padding-left: 8%;
-    padding-right:8%;
-    
+    justify-content: center;
 }
-.producti > div 
-{
-    opacity: 0.9;
-
-    border-style: solid;
-    border-color: gray;
-    border-width: 1px;
-    width: 80px;
-    margin: 5px;
+.container-category{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 40px;
     padding: 10px;
-    padding-top: 15px;
+    align-items: center;
+    width: 20%;
 }
-
-
+.category{
+    background-color: #f5e0d2;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 10px;
+    width: 100%;
+}
+.category-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 3px;
+    border: 2px solid gray;
+}
+.category-elements{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.category-elements li{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.category-elements a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-style: italic;
+    padding: 10px;
+}
+.category-page{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.container-cakes{
+    width: 70%;
+    margin: 20px;
+    margin-top: 40px;
+    font-style: italic;
+    font-size: large;
+}
   /* Това е ЗА НАС */
   .Whole
 {
-  width: 90%;
+  width: 80%;
   height: 700px;
   display: flex;
   flex-flow: row wrap;
